@@ -8,7 +8,7 @@ class App extends Component {
     super(props)
 
     this.state = {
-      auth: true
+      auth: false
     }
   }
   render () {

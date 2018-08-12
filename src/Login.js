@@ -5,7 +5,7 @@ import {
   Switch
 } from 'react-router-dom'
 
-import Form from './Login/Form'
+import SignIn from './Login/SignIn'
 import NotFound from './Login/NotFound'
 
 class Login extends Component {
@@ -13,7 +13,7 @@ class Login extends Component {
     return (
       <Router>
         <Switch>
-          <Route path='/' exact component={Form} />
+          <Route path='/' exact component={SignIn} />
           <Route path='*' component={NotFound} />
         </Switch>
       </Router>
